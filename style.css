@@ -24,6 +24,7 @@ img {
   max-width: 100%;
 }
 
+/*styling af header og nav*/
 header {
   max-height: 15vh;
   width: 100vw;
@@ -58,4 +59,30 @@ nav ul a:hover {
 
 .active {
   color: #44C466;
+}
+
+/* styling af overskrifter */
+h1 {
+  font-size: 70px;
+  font-family: "Corben", serif;
+  color: #000;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: "Corben", serif;
+  color: #000;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 25px;
+  font-family: "Baskervville", serif;
+  color: #000;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 90px;
 }/*# sourceMappingURL=style.css.map */

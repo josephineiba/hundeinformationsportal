@@ -24,6 +24,8 @@ img{
     max-width: 100%;
 }
 
+/*styling af header og nav*/
+
 header{
     max-height: 15vh;
     width: 100vw;
@@ -63,3 +65,32 @@ nav{
 .active{
     color: partial.$logo-color;
 }
+
+/* styling af overskrifter */
+
+h1{
+    font-size: 70px;
+    font-family: partial.$overskrift-font;
+    color: #000;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h2{
+    font-size: 50px;
+    font-family: partial.$overskrift-font;
+    color: #000;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+p{
+    font-size: 25px;
+    font-family: partial.$tekst-font;
+    color: #000;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 90px;
+}
+
+

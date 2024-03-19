@@ -84,5 +84,59 @@ p {
   color: #000;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 90px;
+}
+
+/* service bokse */
+.kategorier {
+  display: flex;
+  justify-content: space-between;
+}
+.kategorier .sundhed-boks, .kategorier .workout-boks, .kategorier .pleje-boks {
+  background-color: #EEE5DF;
+  width: 400px;
+  height: 600px;
+  padding: 2em;
+  margin: 2em auto;
+}
+
+/*hunderace bokse*/
+main .beige-boks {
+  display: flex;
+  justify-content: space-around;
+  background-color: #EEE5DF;
+  width: 100%;
+  height: auto;
+}
+
+.race-boks1, .race-boks2, .race-boks3, .race-boks4 {
+  background-color: #EEE5DF;
+  width: 400px;
+  height: 600px;
+  margin: 2em auto;
+  border: 4px solid #61795A;
+}
+.race-boks1 img, .race-boks2 img, .race-boks3 img, .race-boks4 img {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.race-boks1 p, .race-boks2 p, .race-boks3 p, .race-boks4 p {
+  width: 100%;
+  height: 30%;
+  background-color: #EEE5DF;
+  color: #61795A;
+  font-size: 20px;
+}
+.race-boks1 a, .race-boks2 a, .race-boks3 a, .race-boks4 a {
+  background-color: #61795A;
+  padding: 0.5em;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  display: block;
+}
+.race-boks1 a:hover, .race-boks2 a:hover, .race-boks3 a:hover, .race-boks4 a:hover {
+  background-color: #44C466;
 }/*# sourceMappingURL=style.css.map */

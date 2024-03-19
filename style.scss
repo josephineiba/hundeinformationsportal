@@ -90,7 +90,60 @@ p{
     color: #000;
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 90px;
 }
+
+/* service bokse */
+.kategorier{
+    display: flex;
+    justify-content: space-between;
+
+    .sundhed-boks, .workout-boks, .pleje-boks{
+        @include partial.kategori-box;
+    }
+
+}
+
+
+/*hunderace bokse*/
+main{
+        .beige-boks{
+            display: flex;
+            justify-content: space-around;
+            background-color: partial.$secondary-color;
+            width: 100%;
+            height: auto
+        }
+}
+
+.race-boks1, .race-boks2, .race-boks3, .race-boks4{
+    @include partial.race-box;
+
+        img{
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        p{
+            width: 100%;
+            height: 30%;
+            background-color: partial.$secondary-color;
+            color: partial.$primary-color;
+            font-size: 20px;
+        }
+
+        a{
+            @include partial.btn;
+            display: block;
+
+            &:hover{
+                background-color: partial.$logo-color;
+            }
+
+        }
+}
+  
+
 
 

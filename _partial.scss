@@ -4,27 +4,5 @@ $secondary-color: #EEE5DF;
 $logo-color: #44C466;
 $text-color: #000;
 $padding: 0.5em;
-$font: 'Baskervville', serif;
-
-/* Mixin */
-@mixin flex($justify: center, $align: center) {
-    display: flex;
-    justify-content: center;
-}
-/*hvis man vil ændre på en variabel skal man bruge parantes. har man ikke brug for at ændre på variablen skal man kun lave tuborg klammer*/
-
-@mixin btn($background-color: $primary-color, $btn-padding: 0.8em 1em){
-    background-color: $background-color;
-    padding: $btn-padding;
-    border-radius: 8px;
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-}
-
-@mixin cta-box($width: 20vw){ /*cta = call to action, knap*/
-    background-color: #fff;
-    width: $width;
-    padding: 2em;
-    margin: 2em auto;
-}
+$overskrift-font: 'Corben', serif;
+$tekst-font: 'Baskervville', serif;

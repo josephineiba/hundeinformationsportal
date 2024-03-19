@@ -13,4 +13,49 @@ Beige       #EEE5DF
 Hvid        #fff
 
 ------------------------------------------------------------------------ */
-/*Variabler*//*# sourceMappingURL=style.css.map */
+/*Variabler*/
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  max-height: 15vh;
+  width: 100vw;
+  background-color: #61795A;
+}
+
+nav {
+  display: flex;
+}
+nav img {
+  max-width: 7.5%;
+  height: auto;
+  padding-left: 2vw;
+  justify-content: left;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+}
+nav ul a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-family: "Corben", serif;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+nav ul a:hover {
+  color: #44C466;
+}
+
+.active {
+  color: #44C466;
+}/*# sourceMappingURL=style.css.map */

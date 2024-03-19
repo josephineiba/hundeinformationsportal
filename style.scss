@@ -13,3 +13,53 @@ Hvid        #fff
 
 ------------------------------------------------------------------------ */
 @use 'partial';
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    max-height: 15vh;
+    width: 100vw;
+    background-color: partial.$primary-color;
+}
+
+nav{
+    display: flex;
+
+        img{
+            max-width: 7.5%;
+            height: auto;
+            padding-left: 2vw;
+            justify-content: left;
+        }        
+
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: right;
+
+            a{
+                text-decoration: none;
+                color: #fff;
+                font-size: 25px;
+                font-family: partial.$overskrift-font;
+                padding: partial.$padding;
+                margin: partial.$padding;
+
+                &:hover{
+                    color: partial.$logo-color;
+                }
+            }
+    }
+}
+
+.active{
+    color: partial.$logo-color;
+}

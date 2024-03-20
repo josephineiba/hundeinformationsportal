@@ -38,7 +38,7 @@ header nav ul {
   display: flex;
   justify-content: right;
   width: 100%;
-  gap: 5%;
+  gap: 3%;
   margin-right: 20px;
   margin-top: 40px;
 }
@@ -222,7 +222,25 @@ main .beige-boks {
   line-height: 1.3;
 }
 
-/* end .scrollx */
+/*styling af sundhed side*/
+.sundhed-billede {
+  width: 100vw;
+  height: auto;
+}
+
+.tekstindhold {
+  margin: 100px 300px;
+}
+.tekstindhold h2 {
+  text-align: left;
+  font-size: 30px;
+}
+.tekstindhold p {
+  text-align: left;
+  font-size: 20px;
+  line-height: 2;
+}
+
 footer {
   height: 30vh;
   width: 100vw;

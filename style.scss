@@ -39,7 +39,7 @@ header{
                 display: flex;
                 justify-content: right;
                 width: 100%;
-                gap: 5%;
+                gap: 3%;
                 margin-right: 20px;
                 margin-top: 40px;
     
@@ -244,10 +244,27 @@ main{
     }
 }
 
+/*styling af sundhed side*/
+.sundhed-billede{
+    width: 100vw;
+    height: auto;
+}
 
+.tekstindhold{
+    margin: 100px 300px;
 
+    h2{
+        text-align: left;
+        font-size: 30px;
+    }
 
-/* end .scrollx */
+    p{
+        text-align: left;
+        font-size: 20px;
+        line-height: 2;
+    }
+}
+
 
 
 footer{
@@ -290,5 +307,3 @@ footer{
 
     }
 }
-
-

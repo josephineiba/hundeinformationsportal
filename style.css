@@ -107,8 +107,43 @@ p {
   background-color: #EEE5DF;
   width: 400px;
   height: 600px;
-  padding: 2em;
   margin: 2em auto;
+  border: 4px solid #61795A;
+  border-radius: 5px;
+}
+.kategorier .sundhed-boks h3, .kategorier .workout-boks h3, .kategorier .pleje-boks h3 {
+  background-color: #61795A;
+  height: 50%;
+  color: #fff;
+  font-size: 40px;
+}
+.kategorier .sundhed-boks p, .kategorier .workout-boks p, .kategorier .pleje-boks p {
+  font-size: 20px;
+  font-family: "Baskervville", serif;
+  color: #000;
+  text-align: center;
+  line-height: 1.5;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.kategorier .sundhed-boks .knap, .kategorier .workout-boks .knap, .kategorier .pleje-boks .knap {
+  margin-top: 50px;
+  background-color: #61795A;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  padding: 0.8em;
+  border-radius: 5px;
+}
+.kategorier .sundhed-boks .knap a, .kategorier .workout-boks .knap a, .kategorier .pleje-boks .knap a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+}
+.kategorier .sundhed-boks .knap:hover, .kategorier .workout-boks .knap:hover, .kategorier .pleje-boks .knap:hover {
+  background-color: #44C466;
 }
 
 /*hunderace bokse*/
@@ -116,6 +151,7 @@ main .beige-boks {
   background-color: #EEE5DF;
   width: 100%;
   height: auto;
+  margin-bottom: 10vh;
 }
 
 .scroll {

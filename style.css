@@ -240,16 +240,17 @@ main .beige-boks {
 .hold .hold-boks1, .hold .hold-boks2, .hold .hold-boks3 {
   background-color: #EEE5DF;
   width: 400px;
-  height: 650px;
+  height: 450px;
   margin: 2em auto;
   border: 4px solid #61795A;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 .hold .hold-boks1 h3, .hold .hold-boks2 h3, .hold .hold-boks3 h3 {
   background-color: #44C466;
-  height: 14%;
+  height: 15%;
   color: #fff;
   font-size: 40px;
+  border-radius: 16px 16px 0px 0px;
 }
 .hold .hold-boks1 p, .hold .hold-boks2 p, .hold .hold-boks3 p {
   font-size: 20px;
@@ -257,17 +258,19 @@ main .beige-boks {
   color: #000;
   text-align: center;
   line-height: 1.5;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
 }
 .hold .hold-boks1 .knap, .hold .hold-boks2 .knap, .hold .hold-boks3 .knap {
-  margin-top: 50px;
+  margin-top: 80px;
   background-color: #44C466;
-  width: 94%;
+  width: 80%;
   display: flex;
   justify-content: center;
   padding: 0.8em;
   border-radius: 5px;
+  margin-left: 30px;
 }
 .hold .hold-boks1 .knap a, .hold .hold-boks2 .knap a, .hold .hold-boks3 .knap a {
   color: #ffffff;
@@ -276,7 +279,7 @@ main .beige-boks {
   text-align: center;
 }
 .hold .hold-boks1 .knap:hover, .hold .hold-boks2 .knap:hover, .hold .hold-boks3 .knap:hover {
-  background-color: #44C466;
+  background-color: #61795A;
 }
 
 /*styling af kategori side*/

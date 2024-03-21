@@ -434,38 +434,38 @@ footer nav ul a {
   .desktop-nav li {
     display: flex;
   }
-}
-h1 {
-  font-size: 50px;
-  line-height: 1.2;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 35px;
-}
-
-p {
-  font-size: 20px;
-  line-height: 1.5;
-}
-
-/* service bokse */
-.kategorier {
-  display: flex;
-  flex-direction: column;
-}
-
-/* footer */
-footer {
-  height: 50vh;
-}
-footer nav {
-  display: flex;
-  padding-top: 50px;
-}
-footer nav ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  /* service bokse */
+  .kategorier {
+    display: flex;
+    flex-direction: column;
+  }
+  .hunderacer {
+    display: flex;
+    flex-direction: column;
+  }
+  /* footer */
+  footer {
+    height: 50vh;
+  }
+  footer nav {
+    display: flex;
+    padding-top: 50px;
+  }
+  footer nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */

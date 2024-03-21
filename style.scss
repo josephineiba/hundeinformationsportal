@@ -70,7 +70,8 @@ header{
                     margin: partial.$padding;
     
                     &:hover{
-                        color: partial.$logo-color;
+                        background-color: partial.$logo-color;
+                        border-radius: 10px;
                     }
 
                 }
@@ -86,7 +87,8 @@ header{
 }
 
 .active{
-    color: partial.$logo-color;
+    background-color: partial.$logo-color;
+    border-radius: 10px;
 }
 
 /* styling af overskrifter */
@@ -163,7 +165,7 @@ p{
                 justify-content: center;
                 margin-left: 30px;
                 padding: 0.8em;
-                border-radius: 5px;
+                border-radius: 10px;
     
     
                 a{
@@ -230,7 +232,7 @@ main{
                 justify-content: center;
                 margin-left: 30px;
                 padding: 0.8em;
-                border-radius: 5px;
+                border-radius: 10px;
     
     
                 a{
@@ -262,6 +264,14 @@ main{
             padding-top: 250px;
             align-items: center;
             line-height: 1.3;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        &:hover{
+            background-color: partial.$logo-color;
         }
     }
 }
@@ -384,6 +394,15 @@ main{
     }
 }
 
+.sidetal{
+    p{
+        font-family:'Times New Roman', Times, serif;
+        margin: 30px auto;
+        color: partial.$primary-color;
+    }
+
+}
+
 
 /*styling af kategori side*/
 .kategori-billede{
@@ -431,6 +450,7 @@ footer{
                     font-family: partial.$overskrift-font;
                     padding: partial.$padding;
                     margin: partial.$padding;
+                    text-decoration: none;
                 }
         }
     }

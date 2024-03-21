@@ -65,7 +65,8 @@ header nav ul a {
   margin: 0.5em;
 }
 header nav ul a:hover {
-  color: #44C466;
+  background-color: #44C466;
+  border-radius: 10px;
 }
 header nav img {
   max-width: 7.5%;
@@ -75,7 +76,8 @@ header nav img {
 }
 
 .active {
-  color: #44C466;
+  background-color: #44C466;
+  border-radius: 10px;
 }
 
 /* styling af overskrifter */
@@ -123,7 +125,7 @@ p {
   height: 600px;
   margin: 2em auto;
   border: 4px solid #61795A;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .kategorier .sundhed-boks h3, .kategorier .workout-boks h3, .kategorier .pleje-boks h3 {
   background-color: #61795A;
@@ -152,7 +154,7 @@ p {
   justify-content: center;
   margin-left: 30px;
   padding: 0.8em;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .kategorier .sundhed-boks .knap a, .kategorier .workout-boks .knap a, .kategorier .pleje-boks .knap a {
   color: #ffffff;
@@ -212,7 +214,7 @@ main .beige-boks {
   justify-content: center;
   margin-left: 30px;
   padding: 0.8em;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .scrollx article .knap a {
   color: #ffffff;
@@ -238,6 +240,12 @@ main .beige-boks {
   padding-top: 250px;
   align-items: center;
   line-height: 1.3;
+}
+.scrollx .se-alle a {
+  text-decoration: none;
+}
+.scrollx .se-alle:hover {
+  background-color: #44C466;
 }
 
 /* styling af hold bokse */
@@ -347,6 +355,12 @@ main .beige-boks {
   background-color: #44C466;
 }
 
+.sidetal p {
+  font-family: "Times New Roman", Times, serif;
+  margin: 30px auto;
+  color: #61795A;
+}
+
 /*styling af kategori side*/
 .kategori-billede {
   width: 100vw;
@@ -388,6 +402,7 @@ footer nav ul a {
   font-family: "Corben", serif;
   padding: 0.5em;
   margin: 0.5em;
+  text-decoration: none;
 }
 
 .kontakt-footer {

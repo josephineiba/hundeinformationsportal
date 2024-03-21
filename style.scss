@@ -522,6 +522,24 @@ p{
     margin: 10px 40px;
 }
 
+/* styling af hold bokse */
+.hold-boks{
+    background-color: partial.$primary-color;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10vh;
+
+    h2{
+        color: #fff;
+    }
+}
+
+.hold{
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* footer */
 
 footer{

@@ -7,12 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Corben&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8eff645880.js" crossorigin="anonymous"></script>
     <title>Hundeinformationsportal forside</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--Navigation-->
         <header>
+                <!-- burger menu -->
+                <nav class="burger-menu">
+                    <a href="index.html"><img src="img/logohundehuset.png" alt="logo af en hund"></a>
+                    <i class="navToggle bars fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i>
+                </nav>
+
+                <!-- computer menu -->
                 <nav class="desktop-nav">
                     <img src="img/logohundehuset.png" alt="logo af en hund">
 
@@ -147,6 +155,14 @@
 
 
    </Footer>
+
+   <script>
+    const navbarToggle = () => {
+    const nav = document.querySelector('.desktop-nav');
+    nav.classList.toggle('toggleShow');
+    }
+    document.querySelector('.navToggle').addEventListener('click', navbarToggle);
+</script>
     
 </body>
 </html>

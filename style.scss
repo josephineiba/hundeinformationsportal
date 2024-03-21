@@ -24,6 +24,24 @@ img{
     max-width: 100%;
 }
 
+/* mobil navigation */
+
+.burger-menu{
+    .fa-bars{
+        display: none;
+        cursor: pointer;
+    }
+
+    a{
+        display: none;
+    }
+}
+
+.toggleShow{
+    display: flex !important; /*important overskriver alt, så den skal bruges forsigtig*/
+    flex-direction: column;
+}
+
 /*styling af header og nav*/
 
 header{
@@ -426,3 +444,91 @@ footer{
 
     }
 }
+
+
+/*** MOBIL ***/
+@media  screen and (max-width: 900px){
+    header{
+        display: inline;
+    }
+
+    .burger-menu{
+        background-color: #61795A;
+        height: 10vh;
+
+        .fa-bars{
+            display: flex;
+            margin-top: 40px;
+            margin-right: 5vw;
+        }
+
+        a{
+            display: block;
+
+            img{
+                max-width: 20%;
+                height: auto;
+            }
+        }
+    }
+
+
+    .desktop-nav{
+        display: none;
+        height: auto;
+        border-top: 4px solid partial.$primary-color;
+        background-color: partial.$primary-color;
+
+            img{
+                display: none;
+            }
+
+            ul{
+                flex-direction: column;
+            }
+
+            li{
+                display: flex;
+            }
+    }
+
+}
+
+h1{
+    font-size: 50px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* service bokse */
+.kategorier{
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer */
+
+footer{
+    height: 50vh;
+
+    nav{
+        display: flex; 
+        padding-top: 50px;    
+    
+            ul{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+    }
+}
+

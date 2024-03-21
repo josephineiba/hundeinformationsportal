@@ -135,7 +135,7 @@ p{
 
             h3{
                 background-color: partial.$primary-color;
-                height: 50%;
+                height: 15%;
                 color: #fff;
                 font-size: 40px;
             }
@@ -148,6 +148,11 @@ p{
                 line-height: 1.5;
                 padding-left: 3px;
                 padding-right: 3px;
+            }
+
+            img{
+                height: 35%;
+                width: 100%;
             }
 
             .knap{
@@ -454,7 +459,7 @@ footer{
 
     .burger-menu{
         background-color: #61795A;
-        height: 10vh;
+        height: auto;
 
         .fa-bars{
             display: flex;

@@ -127,7 +127,7 @@ p {
 }
 .kategorier .sundhed-boks h3, .kategorier .workout-boks h3, .kategorier .pleje-boks h3 {
   background-color: #61795A;
-  height: 50%;
+  height: 15%;
   color: #fff;
   font-size: 40px;
 }
@@ -139,6 +139,10 @@ p {
   line-height: 1.5;
   padding-left: 3px;
   padding-right: 3px;
+}
+.kategorier .sundhed-boks img, .kategorier .workout-boks img, .kategorier .pleje-boks img {
+  height: 35%;
+  width: 100%;
 }
 .kategorier .sundhed-boks .knap, .kategorier .workout-boks .knap, .kategorier .pleje-boks .knap {
   margin-top: 50px;
@@ -405,7 +409,7 @@ footer nav ul a {
   }
   .burger-menu {
     background-color: #61795A;
-    height: 10vh;
+    height: auto;
   }
   .burger-menu .fa-bars {
     display: flex;

@@ -455,6 +455,9 @@ footer nav ul a {
     display: flex;
     flex-direction: column;
   }
+  .tekstindhold {
+    margin: 10px 40px;
+  }
   /* footer */
   footer {
     height: 50vh;
